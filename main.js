@@ -56,7 +56,7 @@ function fishBtnClicked() {
       numPuffer = numPuffer + 1;
       document.getElementById("num-puffer").innerHTML = numPuffer;
     }
-  } else if (character === villager) {
+  } else if (character === "villager") {
     //villager fish sim
     let rand = Math.random();
     if (rand < 0.25) {
